@@ -1,0 +1,11 @@
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\bin\Debug\net8.0-windows\CapaDatos.deps.json
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\bin\Debug\net8.0-windows\CapaDatos.dll
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\bin\Debug\net8.0-windows\CapaDatos.pdb
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.AssemblyInfo.vb
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.vbproj.CoreCompileInputs.cache
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.dll
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\refint\CapaDatos.dll
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.pdb
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\ref\CapaDatos.dll

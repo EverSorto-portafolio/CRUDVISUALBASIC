@@ -1,0 +1,16 @@
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.FrEmpleado.resources
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.vbproj.GenerateResource.cache
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.AssemblyInfoInputs.cache
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.AssemblyInfo.vb
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.vbproj.CoreCompileInputs.cache
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\bin\Debug\net8.0-windows\capaPresentacion.exe
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\bin\Debug\net8.0-windows\capaPresentacion.deps.json
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\bin\Debug\net8.0-windows\capaPresentacion.runtimeconfig.json
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\bin\Debug\net8.0-windows\capaPresentacion.dll
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\bin\Debug\net8.0-windows\capaPresentacion.pdb
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.dll
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\refint\capaPresentacion.dll
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.pdb
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.genruntimeconfig.cache
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\ref\capaPresentacion.dll
