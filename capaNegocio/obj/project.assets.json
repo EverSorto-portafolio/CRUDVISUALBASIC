@@ -1,11 +1,55 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "CapaDatos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "capaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaDatos.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "capaEntidad/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/capaEntidad.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/capaEntidad.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CapaDatos/1.0.0": {
+      "type": "project",
+      "path": "../CapaDatos/CapaDatos.vbproj",
+      "msbuildProject": "../CapaDatos/CapaDatos.vbproj"
+    },
+    "capaEntidad/1.0.0": {
+      "type": "project",
+      "path": "../capaEntidad/capaEntidad.vbproj",
+      "msbuildProject": "../capaEntidad/capaEntidad.vbproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "CapaDatos >= 1.0.0",
+      "capaEntidad >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\everc\\.nuget\\packages\\": {},
@@ -38,7 +82,14 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\everc\\OneDrive\\Documentos\\Progrmacion\\IntroVisualBasic\\IntroduccionSQLVB\\CapaDatos\\CapaDatos.vbproj": {
+              "projectPath": "C:\\Users\\everc\\OneDrive\\Documentos\\Progrmacion\\IntroVisualBasic\\IntroduccionSQLVB\\CapaDatos\\CapaDatos.vbproj"
+            },
+            "C:\\Users\\everc\\OneDrive\\Documentos\\Progrmacion\\IntroVisualBasic\\IntroduccionSQLVB\\capaEntidad\\capaEntidad.vbproj": {
+              "projectPath": "C:\\Users\\everc\\OneDrive\\Documentos\\Progrmacion\\IntroVisualBasic\\IntroduccionSQLVB\\capaEntidad\\capaEntidad.vbproj"
+            }
+          }
         }
       },
       "warningProperties": {

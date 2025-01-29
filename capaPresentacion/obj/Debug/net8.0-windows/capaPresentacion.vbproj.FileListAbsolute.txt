@@ -14,3 +14,12 @@ C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLV
 C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.pdb
 C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.genruntimeconfig.cache
 C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\ref\capaPresentacion.dll
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\bin\Debug\net8.0-windows\CapaDatos.dll
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\bin\Debug\net8.0-windows\capaEntidad.dll
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\bin\Debug\net8.0-windows\capaNegocio.dll
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\bin\Debug\net8.0-windows\capaEntidad.pdb
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\bin\Debug\net8.0-windows\capaNegocio.pdb
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\bin\Debug\net8.0-windows\CapaDatos.pdb
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.vbproj.AssemblyReference.cache
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.sourcelink.json
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPres.EA224A08.Up2Date

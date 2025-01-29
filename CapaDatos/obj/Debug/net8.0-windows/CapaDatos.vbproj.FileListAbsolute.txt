@@ -9,3 +9,8 @@ C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLV
 C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\refint\CapaDatos.dll
 C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.pdb
 C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\ref\CapaDatos.dll
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\bin\Debug\net8.0-windows\capaEntidad.dll
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\bin\Debug\net8.0-windows\capaEntidad.pdb
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.vbproj.AssemblyReference.cache
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.sourcelink.json
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.vbproj.Up2Date
