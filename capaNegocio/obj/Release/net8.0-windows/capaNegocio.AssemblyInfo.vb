@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("capaNegocio"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Release"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+518863d12cab388f17ba9d1610e7cb649b94b571"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("capaNegocio"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("capaNegocio"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

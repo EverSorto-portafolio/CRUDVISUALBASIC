@@ -13,12 +13,12 @@ Option Explicit On
 
 Imports System
 Imports System.Reflection
-<Assembly: System.Reflection.AssemblyCompanyAttribute("capaEntidad"),  _
- Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
+<Assembly: System.Reflection.AssemblyCompanyAttribute("capaPresentacion"),  _
+ Assembly: System.Reflection.AssemblyConfigurationAttribute("Release"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
  Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+518863d12cab388f17ba9d1610e7cb649b94b571"),  _
- Assembly: System.Reflection.AssemblyProductAttribute("capaEntidad"),  _
- Assembly: System.Reflection.AssemblyTitleAttribute("capaEntidad"),  _
+ Assembly: System.Reflection.AssemblyProductAttribute("capaPresentacion"),  _
+ Assembly: System.Reflection.AssemblyTitleAttribute("capaPresentacion"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
  Assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0"),  _
  Assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")> 

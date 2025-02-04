@@ -1,4 +1,3 @@
-C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.FrEmpleado.resources
 C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.vbproj.GenerateResource.cache
 C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.AssemblyInfoInputs.cache
@@ -23,3 +22,4 @@ C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLV
 C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.vbproj.AssemblyReference.cache
 C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.sourcelink.json
 C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPres.EA224A08.Up2Date
+C:\Users\everc\OneDrive\Documentos\Progrmacion\IntroVisualBasic\IntroduccionSQLVB\capaPresentacion\obj\Debug\net8.0-windows\capaPresentacion.FrEmpleado.resources
