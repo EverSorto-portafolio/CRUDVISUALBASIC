@@ -139,7 +139,7 @@ Partial Class FrEmpleado
         ' 
         ' FrEmpleado
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(653, 450)
         Controls.Add(btnGuardar)
