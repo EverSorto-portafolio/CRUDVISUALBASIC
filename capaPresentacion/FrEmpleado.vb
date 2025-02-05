@@ -51,4 +51,8 @@ Public Class FrEmpleado
     Private Sub pcFoto_Click(sender As Object, e As EventArgs) Handles pcFoto.Click
 
     End Sub
+
+    Private Sub btnEliminar_Click(sender As Object, e As EventArgs) Handles btnEliminar.Click
+        Negocio.pruebaConexion()
+    End Sub
 End Class

@@ -1,7 +1,9 @@
 ﻿
+Imports CapaDatos
 Imports capaEntidad
 Public Class CNEmpleado
 
+    Dim conexion As New CDEmpleado()
     Public Function ValidadDatos(ByVal empleado As CEEMpleado) As Boolean
         Dim Resultado As Boolean = True
 
@@ -17,5 +19,10 @@ Public Class CNEmpleado
 
         Return Resultado
     End Function
+
+
+    Public Sub pruebaConexion()
+        conexion.prueba()
+    End Sub
 
 End Class
