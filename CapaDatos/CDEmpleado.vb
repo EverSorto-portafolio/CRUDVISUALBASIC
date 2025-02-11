@@ -2,6 +2,8 @@
 Imports Microsoft.Data.SqlClient
 Imports CapaDatos
 Imports System.Data.SqlClient
+Imports System.Drawing.Imaging
+Imports capaEntidad
 
 Public Class CDEmpleado
 
@@ -19,10 +21,23 @@ Public Class CDEmpleado
         conexion.Close()
     End Sub
 
-    Public Sub prueba()
-        MessageBox.Show("Ejecutando la prueba")
-        conn()
-    End Sub
+    Public Sub insertar(ByVal empleado As CEEMpleado)
+        Try
+            Dim conexion As New SqlConnection(cadena)
+            conexion.Open()
+            Dim consultaSql As String = "Insert  Into empleado (nombre,apellido,foto) 
+            Values  (@nombre,@apellido,@foto) "
 
+            Dim commando As New SqlCommand(consultaSql, conexion)
+            commando.Parameters.AddWithValue("@nombre", empleado.Nombre)
+            commando.Parameters.AddWithValue("@apellido", empleado.Apellido)
+            commando.Parameters.AddWithValue("@foto", empleado.Foto1)
+            commando.ExecuteNonQuery()
+            conexion.Close()
+            MessageBox.Show("Conexión finalizada")
+        Catch ex As Exception
+            MessageBox.Show("Error -->" + ex.Message)
+        End Try
+    End Sub
 
 End Class

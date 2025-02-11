@@ -21,8 +21,8 @@ Public Class CNEmpleado
     End Function
 
 
-    Public Sub pruebaConexion()
-        conexion.prueba()
+    Public Sub Insertar(ByVal empleado As CEEMpleado)
+        conexion.insertar(empleado)
     End Sub
 
 End Class
