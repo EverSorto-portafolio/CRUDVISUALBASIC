@@ -6,7 +6,7 @@ Public Class FrEmpleado
     Dim Negocio As New CNEmpleado()
     Dim rutaImagen As String = String.Empty
     Private Sub FrEmpleado_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        cargarDatos()
     End Sub
 
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
@@ -57,6 +57,22 @@ Public Class FrEmpleado
     End Sub
 
     Private Sub btnEliminar_Click(sender As Object, e As EventArgs) Handles btnEliminar.Click
+
+    End Sub
+
+    Private Sub dgvEmpleado_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvEmpleado.CellContentClick
+
+    End Sub
+
+    Private Sub cargarDatos()
+        Dim ds As New DataSet
+        ds = Negocio.lista()
+
+        If ds IsNot Nothing AndAlso ds.Tables.Count > 0 Then
+            dgvEmpleado.DataSource = ds.Tables("empleados")
+        Else
+            MessageBox.Show("No hay datos para mostrar", "Mensaje")
+        End If
 
     End Sub
 End Class

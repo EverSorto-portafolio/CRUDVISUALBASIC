@@ -25,4 +25,8 @@ Public Class CNEmpleado
         conexion.insertar(empleado)
     End Sub
 
+
+    Public Function lista() As DataSet
+        Return conexion.listar()
+    End Function
 End Class

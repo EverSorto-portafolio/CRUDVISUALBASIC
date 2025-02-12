@@ -34,8 +34,10 @@ Partial Class FrEmpleado
         btnEliminar = New Button()
         btnGuardar = New Button()
         OpenFoto = New OpenFileDialog()
+        dgvEmpleado = New DataGridView()
         CType(nudId, ComponentModel.ISupportInitialize).BeginInit()
         CType(pcFoto, ComponentModel.ISupportInitialize).BeginInit()
+        CType(dgvEmpleado, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' txtNombre
@@ -137,11 +139,20 @@ Partial Class FrEmpleado
         ' 
         OpenFoto.FileName = "OpenFileDialog1"
         ' 
+        ' dgvEmpleado
+        ' 
+        dgvEmpleado.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        dgvEmpleado.Location = New Point(583, 36)
+        dgvEmpleado.Name = "dgvEmpleado"
+        dgvEmpleado.Size = New Size(443, 367)
+        dgvEmpleado.TabIndex = 11
+        ' 
         ' FrEmpleado
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(653, 450)
+        ClientSize = New Size(1038, 450)
+        Controls.Add(dgvEmpleado)
         Controls.Add(btnGuardar)
         Controls.Add(btnEliminar)
         Controls.Add(btnNuevo)
@@ -157,6 +168,7 @@ Partial Class FrEmpleado
         Text = "FrEmpleado"
         CType(nudId, ComponentModel.ISupportInitialize).EndInit()
         CType(pcFoto, ComponentModel.ISupportInitialize).EndInit()
+        CType(dgvEmpleado, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -173,4 +185,5 @@ Partial Class FrEmpleado
     Friend WithEvents btnEliminar As Button
     Friend WithEvents btnGuardar As Button
     Friend WithEvents OpenFoto As OpenFileDialog
+    Friend WithEvents dgvEmpleado As DataGridView
 End Class

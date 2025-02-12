@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("CapaDatos"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7668f9a8fd49cb81e9dac5dd1e7df132eb4f880"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+608167df2eca8a292dd21c5f5f25a2f40fe9378f"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("CapaDatos"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("CapaDatos"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

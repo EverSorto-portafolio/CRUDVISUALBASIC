@@ -40,4 +40,25 @@ Public Class CDEmpleado
         End Try
     End Sub
 
+    Public Function listar() As DataSet
+        Dim dataset As New DataSet()
+        Dim consultaSql As String = "SELECT * FROM empleado"
+
+
+        Try
+            ' Usar "Using" para garantizar el cierre adecuado de la conexión
+            Using conecion As New SqlConnection(cadena)
+                conecion.Open()
+                Using adapter As New SqlDataAdapter(consultaSql, conecion)
+                    adapter.Fill(dataset, "empleados")
+                End Using
+            End Using
+
+        Catch ex As Exception
+            MessageBox.Show("Error al listar los datos ---> " & ex.Message)
+        End Try
+
+        Return dataset
+    End Function
+
 End Class
