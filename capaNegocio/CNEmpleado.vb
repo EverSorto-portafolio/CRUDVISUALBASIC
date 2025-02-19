@@ -29,4 +29,9 @@ Public Class CNEmpleado
     Public Function lista() As DataSet
         Return conexion.listar()
     End Function
+
+    Public Function actualizar(ByVal obj As CEEMpleado)
+        conexion.update(obj)
+    End Function
+
 End Class

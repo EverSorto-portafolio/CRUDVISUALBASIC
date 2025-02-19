@@ -50,6 +50,19 @@ Public Class FrEmpleado
         End If
 
 
+        If (empleado.IdEmpleado = 0) Then
+            Negocio.Insertar(empleado)
+        Else
+            Negocio.actualizar(empleado)
+        End If
+
+
+        cargarDatos()
+
+
+
+
+
     End Sub
 
     Private Sub pcFoto_Click(sender As Object, e As EventArgs) Handles pcFoto.Click
@@ -72,6 +85,19 @@ Public Class FrEmpleado
             dgvEmpleado.DataSource = ds.Tables("empleados")
         Else
             MessageBox.Show("No hay datos para mostrar", "Mensaje")
+        End If
+
+    End Sub
+
+    Private Sub dgvEmpleado_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvEmpleado.CellDoubleClick
+        txtNombre.Text = dgvEmpleado.CurrentRow.Cells("Nombre").Value
+        txtApellido.Text = dgvEmpleado.CurrentRow.Cells("Apellido").Value
+        nudId.Value = dgvEmpleado.CurrentRow.Cells("id").Value
+        pcFoto.Image = Nothing
+        If dgvEmpleado.CurrentRow.Cells("foto").Value <> "" Then
+            If System.IO.File.Exists(dgvEmpleado.CurrentRow.Cells("foto").Value) Then
+                pcFoto.Load(dgvEmpleado.CurrentRow.Cells("foto").Value)
+            End If
         End If
 
     End Sub

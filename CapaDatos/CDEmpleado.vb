@@ -40,6 +40,29 @@ Public Class CDEmpleado
         End Try
     End Sub
 
+
+    Public Sub update(ByVal empleado As CEEMpleado)
+        Try
+            Dim conexion As New SqlConnection(cadena)
+            conexion.Open()
+            Dim consultaSql As String
+            consultaSql = "UPDATE empleado " &
+              "SET nombre = @nombre, apellido = @apellido, foto = @foto " &
+              "WHERE id = @id"
+
+            Dim commando As New SqlCommand(consultaSql, conexion)
+            commando.Parameters.AddWithValue("@nombre", empleado.Nombre)
+            commando.Parameters.AddWithValue("@apellido", empleado.Apellido)
+            commando.Parameters.AddWithValue("@foto", empleado.Foto1)
+            commando.Parameters.AddWithValue("@id", empleado.IdEmpleado)
+            commando.ExecuteNonQuery()
+            conexion.Close()
+            MessageBox.Show("Conexión finalizada")
+        Catch ex As Exception
+            MessageBox.Show("Error -->" + ex.Message)
+        End Try
+    End Sub
+
     Public Function listar() As DataSet
         Dim dataset As New DataSet()
         Dim consultaSql As String = "SELECT * FROM empleado"
